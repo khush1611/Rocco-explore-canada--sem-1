@@ -20,7 +20,7 @@ body {
   color: #111;
 }
 
-
+.page-wrapper { position: relative; justify-content: space-between; }
 
 /*~~~~~~~~~~~~~~*/
 /* Common classes   */

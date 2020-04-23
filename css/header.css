@@ -5,7 +5,13 @@
     background-color:#E10032;
     color: #DBE8E1;
   
+    flex-basis: 19%;
     height: 100vh;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
   }
   .header-sidebar__col{ 
     height: 100vh;
