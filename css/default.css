@@ -29,7 +29,9 @@ body {
 
 .text-center{ text-align: center;}
 
-.row{ display: flex;  }
+.row{ display: flex;  justify-content: space-between;}
 
 .column{ display: flex; flex-direction: column; } 
+
+.btn-readmore{ border: 0; background-color: #034687; color: #fff; padding: .6em 2em;}
 
