@@ -2,16 +2,19 @@
 /*~~~~~~~~~~~~~~*/
 /*  SEARCH BAR */
 /*~~~~~~~~~~~~~~*/
-.header-searchbar{ max-width: 100%; padding: 1em 1em 2em 1em;} 
+.header-searchbar{ max-width: 100%; padding: 2em 1em 1em 1em; transition: all 0.3s ease-in-out 0s} 
 .header-searchbar-sticked{ 
   position: sticky; 
   top: 0; 
   left: 0; 
-  
+
+  padding: 2em 2em 2em 2em;
   max-width: 100%;
   background-color: #fff;
-  border-bottom: 0.1em solid #03458775;
-}
+  -webkit-box-shadow: -2px 2px 6px 0px rgba(115,143,167,1);
+  -moz-box-shadow: -2px 2px 6px 0px rgba(115,143,167,1);
+  box-shadow: -2px 2px 6px 0px rgba(115,143,167,1);
+  }
  
 .form-search__row { justify-content: center;}
 
@@ -28,14 +31,25 @@
 .form-search__input:focus{ outline: 0.1em solid #034687;  border-radius:1em;}
 
 .form-search__button { 
-  flex-basis: 10%;
+  cursor: pointer;
+  flex-basis: 5.5%;
 
   color: #034687;
   border: 0;
   background-color:transparent;
-  margin-left: -7em;
+  margin-left: -5em;
 
+  transition: all 0.2s ease-in-out 0.3s;
 }
+.form-search__button:focus{ outline: 0; }
+.form-search__button:hover{ 
+    border-top-right-radius:2em; 
+    border-bottom-right-radius:2em;
+    border-left: 0.1em solid #034687; 
+    
+    background: #151B25; 
+    color: #738FA7;
+  }
 /*~~~~~~~~~~~~~~*/
 /*  BLOG */
 /*~~~~~~~~~~~~~~*/
