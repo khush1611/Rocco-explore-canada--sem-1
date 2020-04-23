@@ -2,8 +2,8 @@
 /*   SIDE BAR   */
 /*~~~~~~~~~~~~~~*/
 .header-sidebar{
-    background-color:#E10032;
-    color: #DBE8E1;
+    background-color: #151B25;
+    color: #738FA7;
   
     flex-basis: 20%;
     height: 100vh;
@@ -24,7 +24,7 @@
   .navigation-list{ margin-bottom: .4em; }
   
   .navigation-list a{
-    color: rgb(187, 206, 196);
+    color: #738FA7;
   
     font-size: 2em;
     text-decoration: none;
@@ -34,8 +34,8 @@
   }
   
   .navigation-list a:hover{
-    color: #fff;
-    border-bottom: .2em solid #fff;
+    color: #C3CEDA;
+    border-bottom: .2em solid #C3CEDA;
   }
   .footer{
     margin-top: auto;

@@ -1,10 +1,8 @@
-.main{
-  flex-basis: 80%;
-}
+.main{ flex-basis: 80%; }
 /*~~~~~~~~~~~~~~*/
 /*  SEARCH BAR */
 /*~~~~~~~~~~~~~~*/
- .header-searchbar{ max-width: 100%; padding: 1em 1em 2em 1em;/* border-bottom: 0.1em solid #03458775;*/ } 
+.header-searchbar{ max-width: 100%; padding: 1em 1em 2em 1em;/* border-bottom: 0.1em solid #03458775;*/ } 
  
 .form-search__row { justify-content: center;}
 
@@ -30,13 +28,8 @@
 
 }
 /*~~~~~~~~~~~~~~*/
-/*  GALLARY BAR */
+/*  BLOG */
 /*~~~~~~~~~~~~~~*/
-.section-blog{
-   padding: 2em;
-}
-.section-blog h2{ font-size: 1.7em; text-transform: capitalize; margin-bottom: .5em;}
-
-.blog { flex-basis: calc(95% / 3); margin-bottom: 1em;}
+.blog { flex-basis: calc(95% / 3); margin-bottom: 2em;}
 
 .blog__image{ max-width: 100%;}
