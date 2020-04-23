@@ -26,7 +26,7 @@ body {
 
 .logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
 
-.alert{ width: 100%; margin: 0 auto;}
+.section-alert{ width: 100%; margin: 0 auto;}
 
 .alert__bar{ 
   background-color: #fff3cd; 
