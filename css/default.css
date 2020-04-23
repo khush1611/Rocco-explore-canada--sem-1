@@ -1,0 +1,33 @@
+/*~~~~~~~ COLORS~~~~~~~*/
+/*
+red: #E10032
+baby-blue: #DBE8E1;
+
+navy-blue: #034687;
+corn-flower: #151B25;
+
+dark-blue: #071330;
+midnight-blue: #0C4160;
+blue-gray: #738FA7;
+misty-blue: #C3CEDA;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+body {
+  font-family: 'Baloo Paaji 2', cursive;
+  background-color: #fff;
+  color: #111;
+}
+
+
+
+/*~~~~~~~~~~~~~~*/
+/* Common classes   */
+/*~~~~~~~~~~~~~~*/
+.text-center{ text-align: center;}
+
+.row{ display: flex;  }
+
+.column{ display: flex; flex-direction: column; } 
+

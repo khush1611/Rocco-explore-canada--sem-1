@@ -1,0 +1,36 @@
+/*~~~~~~~~~~~~~~*/
+/*   SIDE BAR   */
+/*~~~~~~~~~~~~~~*/
+.header-sidebar{
+    background-color:#E10032;
+    color: #DBE8E1;
+  
+    height: 100vh;
+  }
+  .header-sidebar__col{ 
+    height: 100vh;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .side-navigation{ margin-top: 7em; }
+  
+  .navigation-list{ margin-bottom: .4em; }
+  
+  .navigation-list a{
+    color: rgb(187, 206, 196);
+  
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    transition: all 0.3s ease-in-out 0s; 
+  }
+  
+  .navigation-list a:hover{
+    color: #fff;
+    border-bottom: .2em solid #fff;
+  }
+  .footer{
+    margin-top: auto;
+  } 
