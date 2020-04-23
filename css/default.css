@@ -22,7 +22,7 @@ body {
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
-.section-blog, .section-gallery{  padding: 2em; }
+.section-explore, .section-gallery{  padding: 2em; }
 
 .logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
 

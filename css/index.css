@@ -52,11 +52,11 @@
     color: var(--color-secondary)
   }
 /*~~~~~~~~~~~~~~*/
-/*  BLOG */
+/*  EXPLORE */
 /*~~~~~~~~~~~~~~*/
-.blog { flex-basis: calc(95% / 3); margin-bottom: 2em;}
+.explore{ flex-basis: calc(95% / 3); margin-bottom: 2em;}
 
-.blog__image{ max-width: 100%;}
+.explore__image{ max-width: 100%; height: 18em;}
 
 /*~~~~~~~~~~~~~~*/
 /*  GALLERY */
