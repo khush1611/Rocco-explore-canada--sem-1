@@ -25,6 +25,24 @@ body {
 .section-blog, .section-gallery{  padding: 2em; }
 
 .logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
+
+.alert{ width: 100%; margin: 0 auto;}
+
+.alert__bar{ 
+  background-color: #fff3cd; 
+  color:var(--color-primary);
+  margin: 3em; 
+  border-radius: .2em; 
+  border: 1px solid rgba(206, 63, 31, 0.342);;
+  padding: .6em;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert__bar-img{ max-width: 1.5em; height: 1.5em; flex-basis: 5%;}
+
+.alert__bar-content{ flex-basis: 95%; margin: 0;}
 /*~~~~~~~~~~~~~~*/
 /* Common classes   */
 /*~~~~~~~~~~~~~~*/

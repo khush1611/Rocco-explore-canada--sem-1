@@ -23,14 +23,14 @@
   flex-basis: 60%;
 
   color:var(--color-content-font);
-  border: 0.1em solid var(--color-primary);
+  border: 0.06em solid var(--color-primary);
   border-radius: 2em;
-  padding: .6em;
+  padding: .7em;
 
   transition: all 0.3s ease-in-out 0s; 
 }
-.form-search__input:focus{ outline: 0.1em solid var(--color-primary);;  border-radius:1em;}
-
+.form-search__input:focus{ outline: 0;}
+.form-search__input:hover{ border: 0.1em solid var(--color-primary);;  border-radius:2em;}
 .form-search__button { 
   cursor: pointer;
   flex-basis: 5.5%;

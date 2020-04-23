@@ -8,3 +8,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
 
 3. Shadow Generator  
 https://www.cssmatic.com/box-shadow
+
+4. Icon, Website logo  
+https://icons8.com/
