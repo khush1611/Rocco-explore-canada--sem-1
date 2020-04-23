@@ -25,6 +25,8 @@ body {
 /*~~~~~~~~~~~~~~*/
 /* Common classes   */
 /*~~~~~~~~~~~~~~*/
+.hidden{ display: none; }
+
 .text-center{ text-align: center;}
 
 .row{ display: flex;  }
