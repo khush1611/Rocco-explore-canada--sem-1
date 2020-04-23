@@ -26,12 +26,11 @@ body {
 
 .logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
 
-.section-alert{ width: 100%; margin: 0 auto;}
+.section-alert{  margin: 2em; }
 
 .alert__bar{ 
   background-color: #fff3cd; 
-  color:var(--color-primary);
-  margin: 3em; 
+  color:var(--color-accent);
   border-radius: .2em; 
   border: 1px solid rgba(206, 63, 31, 0.342);;
   padding: .6em;
