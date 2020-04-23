@@ -1,25 +1,35 @@
 /*~~~~~~~ COLORS~~~~~~~*/
 /*
 navy-blue: #034687;
-corn-flower: #151B25;
 blue-gray: #738FA7;
 misty-blue: #C3CEDA;
 */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
+:root{
+  --color-primary: #CE401F;
+  --color-secondary: #D3E3E3;
+  --color-accent: #646C6C;
+
+  --color-content-font: #13100F;
+}
+
 body {
   font-family: 'Baloo Paaji 2', cursive;
   background-color: #fff;
-  color: #111;
+  color: var(--color-content-font);
 }
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
 .section-blog, .section-gallery{  padding: 2em; }
 
+.logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
 /*~~~~~~~~~~~~~~*/
 /* Common classes   */
 /*~~~~~~~~~~~~~~*/
+.img-block { display: block;}
+
 .hidden{ display: none; }
 
 .text-center{ text-align: center;}
@@ -28,10 +38,15 @@ body {
 
 .column{ display: flex; flex-direction: column; } 
 
-.heading { font-size: 1.8em; text-transform: capitalize; margin-bottom: .5em; color:#151B25;}
+.heading { font-size: 1.8em; text-transform: capitalize; margin-bottom: .5em; color:var(--color-primary);}
 
-.title { text-transform: capitalize; color:#034687; font-size: 1.2em;}
+.title { text-transform: capitalize; color:var(--color-primary); font-size: 1.2em;}
 
-.btn-readmore{ border: 0; background-color: #034687; color: #fff; padding: .6em 2em;}
+.btn-readmore{ 
+  border: 0;
+  border-radius: .2em; 
+  background-color: var(--color-accent); 
+  color: #fff; 
+  padding: .6em 2em;}
 
 

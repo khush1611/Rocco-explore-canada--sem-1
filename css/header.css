@@ -2,8 +2,8 @@
 /*   SIDE BAR   */
 /*~~~~~~~~~~~~~~*/
 .header-sidebar{
-    background-color: #151B25;
-    color: #738FA7;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
   
     flex-basis: 20%;
     height: 100vh;
@@ -19,12 +19,12 @@
     justify-content: center;
     align-items: center;
   }
-  .side-navigation{ margin-top: 7em; }
+  .side-navigation{ margin-top: 3em; }
   
   .navigation-list{ margin-bottom: .4em; }
   
   .navigation-list a{
-    color: #738FA7;
+    color: var(--color-secondary);
   
     font-size: 2em;
     text-decoration: none;
@@ -34,7 +34,7 @@
   }
   
   .navigation-list a:hover{
-    color: #C3CEDA;
+    color: #fff;
     border-bottom: .2em solid #C3CEDA;
   }
   .footer{
