@@ -7,9 +7,9 @@ misty-blue: #C3CEDA;
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
 :root{
-  --color-primary: #CE401F;
+  --color-primary: #646C6C;
   --color-secondary: #D3E3E3;
-  --color-accent: #646C6C;
+  --color-accent: #CE401F;;
 
   --color-content-font: #13100F;
 }
