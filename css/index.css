@@ -2,7 +2,16 @@
 /*~~~~~~~~~~~~~~*/
 /*  SEARCH BAR */
 /*~~~~~~~~~~~~~~*/
-.header-searchbar{ max-width: 100%; padding: 1em 1em 2em 1em;/* border-bottom: 0.1em solid #03458775;*/ } 
+.header-searchbar{ max-width: 100%; padding: 1em 1em 2em 1em;} 
+.header-searchbar-sticked{ 
+  position: sticky; 
+  top: 0; 
+  left: 0; 
+  
+  max-width: 100%;
+  background-color: #fff;
+  border-bottom: 0.1em solid #03458775;
+}
  
 .form-search__row { justify-content: center;}
 
