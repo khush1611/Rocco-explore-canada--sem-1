@@ -13,6 +13,21 @@
     position: sticky;
     top: 0;
     left: 0;
+    transition: all 0.5s ease-in-out 0s; 
+  }
+  .onClick-sidebar {
+    background-color: var(--color-primary);
+    border-right: .02em solid rgba(79, 109, 152, 0.63);
+    color: var(--color-secondary);
+  
+    flex-basis: 50px;
+    height: 100vh;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out 0s; 
   }
   .header-sidebar__col{ 
     height: 95%;

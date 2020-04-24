@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
 :root{
-  --color-primary:  #F5F7F7;
+  --color-primary:  rgb(225, 243, 243);
   --color-secondary: #4F6D98;
   --color-accent: #469BB4;
 
@@ -27,8 +27,8 @@ body {
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
-.humburger__icon{ margin-left: 17em; width: 4em;}
-
+.hamburger__icon{ margin-left: 17em; width: 4em; cursor: pointer; transition: all 0.5s ease-out 0s;}
+.hamburger__icon-click {  margin-left: 6.5em; width: 4em; cursor: pointer; transition: all 0.5s ease-out 0s; }
 .section-explore, .section-gallery{  padding: 2em; }
 
 .section-alert{  margin: 2em; }
@@ -70,6 +70,8 @@ body {
 
 .hidden{ display: none; }
 
+.visibilty-hidden { visibility: hidden !important;}
+
 .text-center{ text-align: center;}
 
 .row{ display: flex;  justify-content: space-between;}
@@ -86,5 +88,3 @@ body {
   background-color: var(--color-accent); 
   color: #fff; 
   padding: .6em 2em;}
-
-
