@@ -24,8 +24,6 @@ body {
 
 .section-explore, .section-gallery{  padding: 2em; }
 
-.logo-title{ margin: 0; text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
-
 .section-alert{  margin: 2em; }
 
 .alert__bar{ 

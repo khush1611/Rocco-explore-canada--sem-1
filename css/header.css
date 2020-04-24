@@ -19,7 +19,31 @@
     justify-content: center;
     align-items: center;
   }
-  .side-navigation{ margin-top: 3em; }
+  /*~~~~~~~~~~~~~~*/
+/*   LOGO  */
+/*~~~~~~~~~~~~~~*/
+  .logo-box{
+    background-color: var(--color-secondary);
+    max-width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+
+    justify-content: center;
+    align-content: center;
+}
+  
+  .logo-image{ max-width: 4em; padding: .5em;}
+
+  .header-logo__title{text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
+/*~~~~~~~~~~~~~~*/
+/*   NAV   */
+/*~~~~~~~~~~~~~~*/
+  .side-navigation{ margin-top: 6em; }
   
   .navigation-list{ margin-bottom: .4em; }
   
@@ -37,6 +61,9 @@
     color: #fff;
     border-bottom: .2em solid #C3CEDA;
   }
+  /*~~~~~~~~~~~~~~*/
+/*  FOOTER  */
+/*~~~~~~~~~~~~~~*/
   .footer{
     margin-top: auto;
   } 
