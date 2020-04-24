@@ -27,6 +27,8 @@ body {
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
+.humburger__icon{ margin-left: 17em; width: 4em;}
+
 .section-explore, .section-gallery{  padding: 2em; }
 
 .section-alert{  margin: 2em; }
