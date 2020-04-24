@@ -1,24 +1,29 @@
 /*~~~~~~~ COLORS~~~~~~~*/
 /*
-navy-blue: #034687;
-blue-gray: #738FA7;
-misty-blue: #C3CEDA;
+.testing{
+  color:#98AAB0 ;
+  color:#F5F7F7;
+  color:#469BB4;
+  color:#A7C4CD;
+  color:#2B2B31;
+  color:#4F6D98 ;
+  }
 */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
 :root{
-  --color-primary: #646C6C;
-  --color-secondary: #D3E3E3;
-  --color-accent: #CE401F;;
+  --color-primary:  #F5F7F7;
+  --color-secondary: #4F6D98;
+  --color-accent: #469BB4;
 
-  --color-content-font: #13100F;
+  --color-content-font: #2B2B31;
 }
 
 body {
   font-family: 'Baloo Paaji 2', cursive;
   background-color: #fff;
   color: var(--color-content-font);
-}
+} 
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
@@ -28,9 +33,9 @@ body {
 
 .alert__bar{ 
   background-color: #fff3cd; 
-  color:var(--color-accent);
+  color:#ce3f1f;
   border-radius: .2em; 
-  border: 1px solid rgba(206, 63, 31, 0.342);;
+  border: 1px solid rgba(206, 63, 31, 0.342);
   padding: .6em;
 
   justify-content: space-between;
@@ -53,9 +58,9 @@ body {
 
 .column{ display: flex; flex-direction: column; } 
 
-.heading { font-size: 1.8em; text-transform: capitalize; margin-bottom: .5em; color:var(--color-primary);}
+.heading { font-size: 1.8em; text-transform: capitalize; margin-bottom: .5em; color:var(--color-secondary);}
 
-.title { text-transform: capitalize; color:var(--color-primary); font-size: 1.2em;}
+.title { text-transform: capitalize; color:var(--color-secondary); font-size: 1.2em;}
 
 .btn-readmore{ 
   border: 0;

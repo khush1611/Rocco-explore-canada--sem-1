@@ -3,6 +3,7 @@
 /*  SEARCH BAR */
 /*~~~~~~~~~~~~~~*/
 .header-searchbar{ max-width: 100%; padding: 2em 1em 1em 1em; transition: all 0.3s ease-in-out 0s} 
+
 .header-searchbar-sticked{ 
   position: sticky; 
   top: 0; 
@@ -23,19 +24,21 @@
   flex-basis: 60%;
 
   color:var(--color-content-font);
-  border: 0.06em solid var(--color-primary);
+  border: 0.06em solid var(--color-secondary);
   border-radius: 2em;
   padding: .7em;
 
   transition: all 0.3s ease-in-out 0s; 
 }
 .form-search__input:focus{ outline: 0;}
-.form-search__input:hover{ border: 0.1em solid var(--color-primary);;  border-radius:2em;}
+
+.form-search__input:hover{ border: 0.1em solid var(--color-secondary);  border-radius:2em;}
+
 .form-search__button { 
   cursor: pointer;
   flex-basis: 5.5%;
 
-  color: var(--color-primary);
+  color: var(--color-secondary);
   border: 0;
   background-color:transparent;
   margin-left: -5em;
@@ -43,13 +46,14 @@
   transition: all 0.2s ease-in-out 0.3s;
 }
 .form-search__button:focus{ outline: 0; }
+
 .form-search__button:hover{ 
     border-top-right-radius:2em; 
     border-bottom-right-radius:2em;
-    border-left: 0.1em solid var(--color-primary); 
+    border-left: 0.1em solid var(--color-secondary); 
     
-    background-color: var(--color-primary); 
-    color: var(--color-secondary)
+    background-color: var(--color-secondary); 
+    color: var(--color-primary)
   }
 /*~~~~~~~~~~~~~~*/
 /*  EXPLORE */

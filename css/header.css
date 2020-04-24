@@ -3,6 +3,7 @@
 /*~~~~~~~~~~~~~~*/
 .header-sidebar{
     background-color: var(--color-primary);
+    border-right: .02em solid rgba(79, 109, 152, 0.63);
     color: var(--color-secondary);
   
     flex-basis: 20%;
@@ -23,7 +24,7 @@
 /*   LOGO  */
 /*~~~~~~~~~~~~~~*/
   .logo-box{
-    background-color: var(--color-secondary);
+    background-color: rgba(79, 109, 152, 0.63);
     max-width: 40%;
     height: 60%;
     margin: 0 auto;
