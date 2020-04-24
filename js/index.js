@@ -32,3 +32,17 @@
          $sidebarAllElements.classList.toggle('visibilty-hidden');
     }
     $hamburger.addEventListener('click', hamburgerClick)
+
+
+
+//``````````  Progress bar ``````````// 
+
+const $doc = document
+const $progressBar = $doc.getElementById(`progress-bar`)
+
+// Event listener for scroll
+window.addEventListener(`scroll`, () => {  
+    const progressPercentage = ( window.scrollY/($doc.documentElement.scrollHeight - $doc.documentElement.clientHeight) ) * 100 
+     $progressBar.style.width = `${progressPercentage}%` // Change the width property of progress bar as per the calculated percentage
+    // $progressBar.innerText = 'Your progress: '+ Math.floor(progressPercentage)+'%';
+});
