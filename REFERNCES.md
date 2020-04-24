@@ -11,3 +11,8 @@ https://www.cssmatic.com/box-shadow
 
 4. Icon, Website logo  
 https://icons8.com/
+
+3. Validated the website 
+https://validator.w3.org/#validate_by_input
+
+
