@@ -2,12 +2,13 @@
 /*   SIDE BAR   */
 /*~~~~~~~~~~~~~~*/
 .header-sidebar{
-    background-color: var(--color-primary);
+    background-color:  var(--color-primary);
     color: var(--color-secondary);
   
     flex-basis: 23%;
     height: 100vh;
     z-index: 1;
+    
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -21,6 +22,7 @@
     flex-basis: 50px;
     height: 100vh;
     z-index: 1;
+
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -80,7 +82,8 @@
     animation: 9s infiniteRoate infinite linear;
     -webkit-animation: 9s infiniteRoate infinite linear;
     transition: all 0.5s ease-out 0s;
-    position: absolute;
+
+    position: fixed;
     top: 1em;
     left: 18em;
     z-index: 2;
@@ -92,6 +95,7 @@
     animation: 9s infiniteRoate infinite linear;
     -webkit-animation: 9s infiniteRoate infinite linear;
     transition: all 0.5s ease-out 0s;
+
     position: absolute;
     top: 1em;
     left: 6.5em;

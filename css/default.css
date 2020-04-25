@@ -9,10 +9,11 @@
   color:#4F6D98 ;
   }
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
 :root{
-  --color-primary:  rgb(225, 243, 243);
+  --color-primary:  #F5F7F7;
   --color-secondary: #4F6D98;
   --color-accent: #469BB4;
 
@@ -20,6 +21,7 @@
 }
 
 body {
+
   font-family: 'Baloo Paaji 2', cursive;
   background-color: #fff;
   color: var(--color-content-font);
@@ -27,7 +29,7 @@ body {
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
-.section-explore, .section-gallery{  padding: 2em; }
+.section-explore, .section-gallery{ padding-right: 2em; }
 
 .section-alert{  margin: 2em; }
 
@@ -87,4 +89,5 @@ body {
   border-radius: .2em; 
   background-color: var(--color-accent); 
   color: #fff; 
-  padding: .6em 2em;}
+  padding: .6em 2em;
+}
