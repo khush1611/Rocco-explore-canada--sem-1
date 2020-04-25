@@ -28,22 +28,22 @@
 /*~~~~~~~~~~~~~~*/
 /*   NAV   */
 /*~~~~~~~~~~~~~~*/
-  .side-navigation{ margin-top: auto; }
-  
-  .navigation-list{ margin-bottom: 1.55em; }
-  
-  .navigation-list a{
-    color: var(--color-secondary);
-    font-size: 1.4em;
-    text-decoration: none;
-    text-transform: capitalize;
-    width: 100%;
+.side-navigation{ margin-top: auto; }
+
+.navigation-list{ margin-bottom: 1.55em; }
+
+.navigation-list a{
+  color: var(--color-secondary);
+  font-size: 1.4em;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
 }
   
-  .navigation-list a:hover{
-    color: #222f41;
-    border-bottom: .2em solid #222f41;
-  }
+.navigation-list a:hover{
+  color: #222f41;
+  border-bottom: .2em solid #222f41;
+}
  /*~~~~~~~~~~~~~~*/
 /*  HAMBURGER  */
 /*~~~~~~~~~~~~~~*/
@@ -55,7 +55,7 @@
   animation: 9s infiniteRoate infinite linear;
   -webkit-animation: 9s infiniteRoate infinite linear;
 
-  position: absolute;
+  position: fixed;
   top: 1em;
   z-index: 2;
 }
