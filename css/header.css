@@ -49,17 +49,21 @@
 /*~~~~~~~~~~~~~~*/
   .side-navigation{ margin-top: auto; }
   
-  .navigation-list{ margin-bottom: .4em; }
+  .navigation-list{ margin-bottom: 1.55em; }
   
   .navigation-list a{
     color: var(--color-secondary);
-  
     font-size: 1.4em;
     text-decoration: none;
     text-transform: capitalize;
     width: 100%;
-    transition: all 0.3s ease-in-out 0s; 
-  }
+    
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+}
   
   .navigation-list a:hover{
     color: #222f41;
