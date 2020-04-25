@@ -9,8 +9,7 @@
   color:#4F6D98 ;
   }
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300&display=swap');
 
 :root{
   --color-primary:  #F5F7F7;
@@ -21,9 +20,11 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
   background-color: #fff;
   color: var(--color-content-font);
+
+  line-height: 2em;
 } 
 
 .page-wrapper { position: relative; justify-content: space-between; }
