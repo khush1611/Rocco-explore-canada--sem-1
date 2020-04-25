@@ -1,49 +1,30 @@
 /*~~~~~~~~~~~~~~*/
 /*   SIDE BAR   */
 /*~~~~~~~~~~~~~~*/
-.header-sidebar{
-    background-color:  var(--color-primary);
-    color: var(--color-secondary);
-  
-    flex-basis: 23%;
-    height: 100vh;
-    z-index: 1;
-    
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    left: 0;
-    transition: all 0.5s ease-in-out 0s; 
-  }
-  .onClick-sidebar {
-    background-color: var(--color-primary);
-    color: var(--color-secondary);
-  
-    flex-basis: 50px;
-    height: 100vh;
-    z-index: 1;
+.header-sidebar{ flex-basis: 23%; }
 
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    left: 0;
-    transition: all 0.5s ease-in-out 0s; 
-  }
-  .header-sidebar__col{ 
-    height: 100%;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
-  }
+.onClick-sidebar { flex-basis: 50px; }
+
+.onClick-sidebar, .header-sidebar{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  height: 100vh;
+  z-index: 1;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header-sidebar__col{ height: 100%; padding: 1em; justify-content: center; align-items: center; }
 /*~~~~~~~~~~~~~~*/
 /*   LOGO  */
 /*~~~~~~~~~~~~~~*/
-  .logo-box{ justify-content: center; align-content: center;
-}
-  
-  .logo-image{ max-width: 4em; padding: .5em;}
+.logo-box{ justify-content: center; align-content: center; }
 
-  .header-logo__title{text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em; font-size: 1.1em;}
+.logo-image{ max-width: 4em; padding: .5em;}
+
+.header-logo__title{text-transform: uppercase; letter-spacing: .3em; word-spacing: .4em;}
 /*~~~~~~~~~~~~~~*/
 /*   NAV   */
 /*~~~~~~~~~~~~~~*/
@@ -57,60 +38,37 @@
     text-decoration: none;
     text-transform: capitalize;
     width: 100%;
-    
-    transition: all 0.3s ease-in-out 0s;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -ms-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
 }
   
   .navigation-list a:hover{
     color: #222f41;
     border-bottom: .2em solid #222f41;
   }
-  /*~~~~~~~~~~~~~~*/
-/*  FOOTER  */
-/*~~~~~~~~~~~~~~*/
-  .footer{
-    margin-top: auto;
-  } 
  /*~~~~~~~~~~~~~~*/
 /*  HAMBURGER  */
 /*~~~~~~~~~~~~~~*/
-  .section-hamburger{ position: relative; }
+.section-hamburger{ position: relative; }
 
-  .hamburger__icon{
-    cursor: pointer;
-    width: 4em;
-    animation: 9s infiniteRoate infinite linear;
-    -webkit-animation: 9s infiniteRoate infinite linear;
-    transition: all 0.5s ease-out 0s;
+.hamburger__icon, .hamburger__icon-click{
+  cursor: pointer;
+  width: 4em;
+  animation: 9s infiniteRoate infinite linear;
+  -webkit-animation: 9s infiniteRoate infinite linear;
 
-    position: fixed;
-    top: 1em;
-    left: 18em;
-    z-index: 2;
+  position: absolute;
+  top: 1em;
+  z-index: 2;
 }
-  
-  .hamburger__icon-click {
-    cursor: pointer;
-    width: 4em;
-    animation: 9s infiniteRoate infinite linear;
-    -webkit-animation: 9s infiniteRoate infinite linear;
-    transition: all 0.5s ease-out 0s;
 
-    position: absolute;
-    top: 1em;
-    left: 6.5em;
-    z-index: 2;
-}
+.hamburger__icon{ left: 18em; }
+
+.hamburger__icon-click { left: 6.5em; }
   
-  @keyframes infiniteRoate { 
-    0% { 
-      -webkit-transform: rotate(0deg);
-    }
-     100%{
-      -webkit-transform: rotate(359deg);
-     }
+@keyframes infiniteRoate { 
+  0% { 
+    -webkit-transform: rotate(0deg);
   }
+    100%{
+    -webkit-transform: rotate(359deg);
+    }
+}

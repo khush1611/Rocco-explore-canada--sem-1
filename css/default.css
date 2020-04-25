@@ -1,13 +1,5 @@
-/*~~~~~~~ COLORS~~~~~~~*/
-/*
-.testing{
-  color:#98AAB0 ;
-  color:#F5F7F7;
-  color:#469BB4;
-  color:#A7C4CD;
-  color:#2B2B31;
-  color:#4F6D98 ;
-  }
+/*~~~~~~~ COLORS~~~~~~~
+.testing{ color:#98AAB0; color:#F5F7F7; color:#469BB4; color:#A7C4CD; color:#2B2B31; color:#4F6D98; }
 */
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300&display=swap');
 
@@ -23,15 +15,10 @@ body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   background-color: #fff;
   color: var(--color-content-font);
-
   line-height: 2em;
 } 
 
 .page-wrapper { position: relative; justify-content: space-between; }
-
-.section-explore, .section-gallery{ padding-right: 2em; }
-
-.section-alert{  margin: 2em; }
 
 .alert__bar{ 
   background-color: #fff3cd; 
@@ -66,32 +53,38 @@ body {
 /*~~~~~~~~~~~~~~*/
 /* Common classes   */
 /*~~~~~~~~~~~~~~*/
+.row{ display: flex;  justify-content: space-between;}
+.column{ display: flex; flex-direction: column; } 
+
 .img-block { display: block;}
 
 .hidden{ display: none; }
-
 .visibilty-hidden { visibility: hidden !important;}
 
 .text-center{ text-align: center;}
+.font-size-sm{ font-size: 1.1em;}
 
-.row{ display: flex;  justify-content: space-between;}
+.margin-0{ margin:0; }
+.margin-1em{ margin:  1em; }
+.margin-bottom-2em{ margin-bottom: 2em;}
+.margin-top{ margin-top: auto;}
 
-.column{ display: flex; flex-direction: column; } 
+.padding-2em{ padding: 2em;}
+.padding-right-2em{ padding-right: 2em; }
+
+.border-radius-xthin{  border-radius: .2em; }
 
 .heading { font-size: 1.8em; text-transform: capitalize; margin-bottom: 1.5em; color:var(--color-secondary);}
 
 .title { text-transform: capitalize; color:var(--color-secondary); font-size: 1.2em;}
 
-.margin-0{ margin:0; }
+.btn-explore{ color:var(--color-accent); transition: all 0.3s ease-in-out 0s;}
+.btn-explore:hover{ color:var(--color-secondary); }
 
-.font-size-sm{ font-size: 1.2em;}
-.btn-explore{ 
- text-decoration: none;
- color:var(--color-accent);
- transition: all 0.3s ease-in-out 0s;
+.transition-all-ease-in-out{
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
 }
-
-.btn-explore:hover{ 
-  text-decoration: none;
-  color:var(--color-secondary);
- }
