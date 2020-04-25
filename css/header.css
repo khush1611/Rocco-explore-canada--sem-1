@@ -38,8 +38,8 @@
 /*~~~~~~~~~~~~~~*/
   .logo-box{
     background-color: rgba(79, 109, 152, 0.63);
-    max-width: 40%;
-    height: 60%;
+    max-width: 35%;
+    height: 50%;
     margin: 0 auto;
     border-radius: 5%;
     -webkit-border-radius: 5%;
@@ -57,7 +57,7 @@
 /*~~~~~~~~~~~~~~*/
 /*   NAV   */
 /*~~~~~~~~~~~~~~*/
-  .side-navigation{ margin-top: 6em; }
+  .side-navigation{ margin-top: auto; }
   
   .navigation-list{ margin-bottom: .4em; }
   
