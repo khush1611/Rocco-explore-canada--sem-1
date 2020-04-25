@@ -40,10 +40,7 @@
   width: 100%;
 }
   
-.navigation-list a:hover{
-  color: #222f41;
-  border-bottom: .2em solid #222f41;
-}
+.navigation-list a:hover{ color: #222f41; border-bottom: .1em solid #222f41; }
  /*~~~~~~~~~~~~~~*/
 /*  HAMBURGER  */
 /*~~~~~~~~~~~~~~*/
