@@ -5,7 +5,7 @@
     background-color: var(--color-primary);
     color: var(--color-secondary);
   
-    flex-basis: 20%;
+    flex-basis: 23%;
     height: 100vh;
     z-index: 1;
     position: -webkit-sticky;
@@ -36,19 +36,7 @@
 /*~~~~~~~~~~~~~~*/
 /*   LOGO  */
 /*~~~~~~~~~~~~~~*/
-  .logo-box{
-    background-color: rgba(79, 109, 152, 0.63);
-    max-width: 35%;
-    height: 50%;
-    margin: 0 auto;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
-
-    justify-content: center;
-    align-content: center;
+  .logo-box{ justify-content: center; align-content: center;
 }
   
   .logo-image{ max-width: 4em; padding: .5em;}
@@ -64,7 +52,7 @@
   .navigation-list a{
     color: var(--color-secondary);
   
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-decoration: none;
     text-transform: capitalize;
     width: 100%;
@@ -88,27 +76,27 @@
 
   .hamburger__icon{
     cursor: pointer;
-    width: 4em;  
-    animation: 5s infiniteRoate infinite linear; 
-    transition: all 0.5s ease-out 0s; 
-  
+    width: 4em;
+    animation: 9s infiniteRoate infinite linear;
+    -webkit-animation: 9s infiniteRoate infinite linear;
+    transition: all 0.5s ease-out 0s;
     position: absolute;
     top: 1em;
-    left: 15em;
+    left: 18em;
     z-index: 2;
-  }
+}
   
-  .hamburger__icon-click { 
-    cursor: pointer; 
-    width: 4em;  
-    animation: 5s infiniteRoate infinite linear; 
-    transition: all 0.5s ease-out 0s; 
-
+  .hamburger__icon-click {
+    cursor: pointer;
+    width: 4em;
+    animation: 9s infiniteRoate infinite linear;
+    -webkit-animation: 9s infiniteRoate infinite linear;
+    transition: all 0.5s ease-out 0s;
     position: absolute;
     top: 1em;
     left: 6.5em;
     z-index: 2;
-  }
+}
   
   @keyframes infiniteRoate { 
     0% { 
