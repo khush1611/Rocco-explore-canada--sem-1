@@ -1,8 +1,7 @@
 /*~~~~~~~ COLORS~~~~~~~
 .testing{ color:#98AAB0; color:#F5F7F7; color:#469BB4; color:#A7C4CD; color:#2B2B31; color:#4F6D98; }
 */
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@200;300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 :root{
   --color-primary:  #F5F7F7;
   --color-secondary: #4F6D98;
@@ -12,7 +11,7 @@
 }
 
 body {
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #fff;
   color: var(--color-content-font);
   line-height: 2em;
