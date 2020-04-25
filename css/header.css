@@ -50,8 +50,6 @@
 .hamburger__icon, .hamburger__icon-click{
   cursor: pointer;
   width: 4em;
-  animation: 9s infiniteRoate infinite linear;
-  -webkit-animation: 9s infiniteRoate infinite linear;
 
   position: fixed;
   top: 1em;
@@ -61,12 +59,3 @@
 .hamburger__icon{ left: 18em; }
 
 .hamburger__icon-click { left: 6.5em; }
-  
-@keyframes infiniteRoate { 
-  0% { 
-    -webkit-transform: rotate(0deg);
-  }
-    100%{
-    -webkit-transform: rotate(359deg);
-    }
-}
