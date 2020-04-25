@@ -28,12 +28,12 @@
     transition: all 0.5s ease-in-out 0s; 
   }
   .header-sidebar__col{ 
-    height: 95%;
+    height: 100%;
     padding: 1em;
     justify-content: center;
     align-items: center;
   }
-  /*~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~*/
 /*   LOGO  */
 /*~~~~~~~~~~~~~~*/
   .logo-box{
@@ -81,3 +81,40 @@
   .footer{
     margin-top: auto;
   } 
+ /*~~~~~~~~~~~~~~*/
+/*  HAMBURGER  */
+/*~~~~~~~~~~~~~~*/
+  .section-hamburger{ position: relative; }
+
+  .hamburger__icon{
+    cursor: pointer;
+    width: 4em;  
+    animation: 5s infiniteRoate infinite linear; 
+    transition: all 0.5s ease-out 0s; 
+  
+    position: absolute;
+    top: 1em;
+    left: 15em;
+    z-index: 2;
+  }
+  
+  .hamburger__icon-click { 
+    cursor: pointer; 
+    width: 4em;  
+    animation: 5s infiniteRoate infinite linear; 
+    transition: all 0.5s ease-out 0s; 
+
+    position: absolute;
+    top: 1em;
+    left: 6.5em;
+    z-index: 2;
+  }
+  
+  @keyframes infiniteRoate { 
+    0% { 
+      -webkit-transform: rotate(0deg);
+    }
+     100%{
+      -webkit-transform: rotate(359deg);
+     }
+  }

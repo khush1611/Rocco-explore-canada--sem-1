@@ -27,18 +27,6 @@ body {
 
 .page-wrapper { position: relative; justify-content: space-between; }
 
-.hamburger__icon{ margin-left: 17em; width: 4em; cursor: pointer; animation: 5s infiniteRoate infinite linear; transition: all 0.5s ease-out 0s; }
-
-.hamburger__icon-click {  margin-left: 6.5em; width: 4em; cursor: pointer; animation: 5s infiniteRoate infinite linear; transition: all 0.5s ease-out 0s; }
-
-@keyframes infiniteRoate { 
-  0% { 
-    -webkit-transform: rotate(0deg);
-  }
-   100%{
-    -webkit-transform: rotate(359deg);
-   }
-}
 .section-explore, .section-gallery{  padding: 2em; }
 
 .section-alert{  margin: 2em; }
