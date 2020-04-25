@@ -19,5 +19,10 @@ https://validator.w3.org/#validate_by_input
 https://unsplash.com/
 https://www.google.com/
 
+5. Fonts  
+https://fonts.google.com/specimen/Quicksand?sidebar.open&selection.family=Quicksand
+
+
+
 
 
