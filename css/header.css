@@ -3,7 +3,6 @@
 /*~~~~~~~~~~~~~~*/
 .header-sidebar{
     background-color: var(--color-primary);
-    border-right: .02em solid rgba(79, 109, 152, 0.63);
     color: var(--color-secondary);
   
     flex-basis: 20%;
@@ -17,7 +16,6 @@
   }
   .onClick-sidebar {
     background-color: var(--color-primary);
-    border-right: .02em solid rgba(79, 109, 152, 0.63);
     color: var(--color-secondary);
   
     flex-basis: 50px;
