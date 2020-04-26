@@ -55,12 +55,24 @@
   }
 /*~~~~~~~~~~~~~~*/
 /*  EXPLORE */
-/*~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~*/
 .explore{ flex-basis: calc(95% / 3); margin-bottom: 2em;}
 
 .explore__image{ max-width: 100%; height: 18em;}
 
 /*~~~~~~~~~~~~~~*/
 /*  GALLERY */
-/*~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~*/
 .gallery__image { height: 20em; width: 40em; }
+
+
+/*~~~~~~~~~~~~~~~~~~~*/
+/*  PROGRESS BAR */
+/*~~~~~~~~~~~~~~~~~*/
+#progress-bar{
+  display: block;
+  width: 0%;
+  background-color: #00ff26;
+  height: .5rem;
+  margin: 0.5em 0;
+}
