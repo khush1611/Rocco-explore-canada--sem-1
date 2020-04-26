@@ -1,6 +1,6 @@
 # Instructor
 ```
-Rocco 
+Rocco Panacci 
 ```
 
 # Group Members
