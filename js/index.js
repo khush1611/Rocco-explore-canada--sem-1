@@ -40,9 +40,25 @@
 const $doc = document
 const $progressBar = $doc.getElementById(`progress-bar`)
 
-// Event listener for scroll
+
+//``````````  Infinite Content ``````````// 
+var infinitecontent = $doc.querySelector('.infinite'); // section to add the content
+var gallerycontent = $doc.querySelector('.gallery-content'); //take the data from gallery-content class
+
+
+//`````````` Scroll Event Handler ``````````//
 window.addEventListener(`scroll`, () => {  
+
+// To Implement Progress Bar    
     const progressPercentage = ( window.scrollY/($doc.documentElement.scrollHeight - $doc.documentElement.clientHeight) ) * 100 
      $progressBar.style.width = `${progressPercentage}%` // Change the width property of progress bar as per the calculated percentage
     // $progressBar.innerText = 'Your progress: '+ Math.floor(progressPercentage)+'%';
+
+// To implement infinte content 
+    //  ref: http://jsfiddle.net/8PkQN/1/
+
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        //alert("you're at the bottom of the page");
+        infinitecontent.innerHTML += gallerycontent.innerHTML; // 
+    }
 });
